@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.cell {
+    border: 1px solid rgba(0, 0, 0, 0.618);
+    width: 30px;
+    height: 30px;
+}
+
+.row {
+    display: flex;
+    font-size: 9.5px;
+}
+
